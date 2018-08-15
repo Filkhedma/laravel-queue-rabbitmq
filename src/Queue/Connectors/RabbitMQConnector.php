@@ -60,7 +60,7 @@ class RabbitMQConnector implements ConnectorInterface
         ]);
 
         if ($factory instanceof DelayStrategyAware) {
-            $factory->setDelayStrategy(new RabbitMqDlxDelayStrategy());
+            $factory->setDelayStrategy(new RabbitMqDelayPluginDelayStrategy());
         }
 
         /** @var AmqpContext $context */
