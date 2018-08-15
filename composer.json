@@ -1,11 +1,11 @@
 {
-  "name": "vladimir-yuldashev/laravel-queue-rabbitmq",
+  "name": "filkhedma/laravel-queue-rabbitmq",
   "description": "RabbitMQ driver for Laravel Queue",
   "license": "MIT",
   "authors": [
     {
-      "name": "Vladimir Yuldashev",
-      "email": "misterio92@gmail.com"
+      "name": "Mostafa Saeed",
+      "email": "msaeed@filkhedma.com"
     }
   ],
   "require": {

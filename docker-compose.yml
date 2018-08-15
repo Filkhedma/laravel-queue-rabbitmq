@@ -1,0 +1,15 @@
+version: '3.2'
+services:
+#--------------------------------------------------------------------------
+# PHP Service
+#--------------------------------------------------------------------------
+   rabbitmq_php:
+     container_name: rabbitmq_php
+     build:
+         context: .
+         dockerfile: ./Dockerfile
+     volumes:
+       - type: bind
+         source: .
+         target: /var/www/html
+     command: composer install
